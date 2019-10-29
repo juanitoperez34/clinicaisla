@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Clinica La Isla</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js/custom.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="nav-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+                        <div class="site-branding d-flex align-items-center">
+                           <a class="d-block" href="index.html" rel="home"><img class="d-block" src="images/logo.png" alt="logo"></a>
+                        </div><!-- .site-branding -->
+
+                        <nav class="site-navigation d-flex justify-content-end align-items-center">
+                            <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
+                                <li class="current-menu-item"><a href="index.html">Inicio</a></li>
+                                <li><a href="#cita">Haz una Cita</a></li>
+                                <li><a href="#servicios">Servicios</a></li>
+                                <li><a href="#contacto">Contacto</a></li>
+
+                                <li class="call-btn button gradient-bg mt-3 mt-md-0">
+                                    <a class="d-flex justify-content-center align-items-center" href="#"><img src="images/emergency-call.png"> 6778-8892</a>
+                                </li>
+                            </ul>
+                        </nav><!-- .site-navigation -->
+
+                        <div class="hamburger-menu d-lg-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- .hamburger-menu -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .nav-bar -->
+
+        <div class="swiper-container hero-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide hero-content-wrap" style="background-image: url('images/hero.jpg')">
+                    <div class="hero-content-overlay position-absolute w-100 h-100">
+                        <div class="container h-100">
+                            <div class="row h-100">
+                                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
+                                    <header class="entry-header">
+                                        <h1>Tu Clínica <br>De Confianza</h1>
+                                    </header><!-- .entry-header -->
+
+                                    <div class="entry-content mt-4">
+                                        <p>Contamos con equipamiento de alta tecnología y un equipo de profesionales con muchos años de experiencia. Puedes poner la salud de tu familia en nuestras manos.</p>
+                                    </div><!-- .entry-content -->
+
+                                    <footer class="entry-footer d-flex flex-wrap align-items-center mt-4">
+                                        <a href="#" class="button gradient-bg">Saber más</a>
+                                    </footer><!-- .entry-footer -->
+                                </div><!-- .col -->
+                            </div><!-- .row -->
+                        </div><!-- .container -->
+                    </div><!-- .hero-content-overlay -->
+                </div><!-- .hero-content-wrap -->
+
+                
+
+            <div class="pagination-wrap position-absolute w-100">
+                <div class="swiper-pagination d-flex flex-row flex-md-column"></div>
+            </div><!-- .pagination-wrap -->
+        </div><!-- .hero-slider -->
+    </header><!-- .site-header -->
+
+    <div class="homepage-boxes" id="cita">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="opening-hours">
+                        <h2 class="d-flex align-items-center">Horario de Atención</h2>
+
+                        <ul class="p-0 m-0">
+                            <li>Lunes - Jueves <span>8.00 - 19.00</span></li>
+                            <li>Viernes <span>8.00 - 18.30</span></li>
+                            <li>Sábado <span>9.30 - 17.00</span></li>
+                            <li>Domingo <span>9.30 - 15.00</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+                    <div class="emergency-box">
+                        <h2 class="d-flex align-items-center">Emergencias</h2>
+
+                        <div class="call-btn button gradient-bg">
+                            <a class="d-flex justify-content-center align-items-center" href="#"><img src="images/emergency-call.png">6778-8892</a>
+                        </div>
+
+                        <p>Contamos con un equipo de profesionales listos para atenderte en cualquier clase de emergencia que puedas llegar a tener.</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-5 mt-5 mt-lg-0">
+                    <div class="appointment-box">
+                        <h2 class="d-flex align-items-center">Haz una Cita</h2>
+
+                        <form class="d-flex flex-wrap justify-content-between">
+                            <select class="select-department">
+                                <option value="value1">Selecciona un Departamento</option>
+                                <option value="value2">Urgencias</option>
+                                <option value="value3">Pediatra</option>
+                                <option value="value3">Ginecologo</option>
+                                <option value="value3">Medicina Interna</option>
+                                <option value="value3">Cardiologo</option>
+                                <option value="value3">Gastroenterologo</option>
+                                <option value="value3">Otorrinolaringologo</option>
+                                <option value="value3">Obstetra</option>
+                            </select>
+
+                            <select class="select-doctor">
+                                <option>Dr. Juan Perez</option>
+                                <option>Dr. Pedro Placencia</option>
+                                <option>Dr. Carlos Martínez</option>
+                                <option>Dr. Raúl Sarmiento</option>
+                                <option>Dr. Marco Rubio</option>
+                                <option>Dra. Ximena Sánchez</option>
+                                <option>Dr. Camilo Veraniego</option>
+                                <option>Dra. Martha Osuna</option>
+                                <option>Dra. Paula Venegas</option>
+                                <option>Dra. Patricia Espindola</option>
+                            </select>
+
+                            <input type="text" placeholder="Nombre">
+
+                            <input type="number" placeholder="Teléfono">
+
+                            <input class="button gradient-bg" type="submit" value="Haz una Cita">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-departments" id="servicios">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="our-departments-wrap">
+                        <h2>Nuestros Departamentos</h2>
+
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="our-departments-cont">
+                                    <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <img src="images/cardiogram.png" alt="">
+
+                                        <h3>Cardiología</h3>
+                                    </header>
+
+                                    <div class="entry-content">
+                                        <p>La cardiología es una rama de la medicina. Para obtener el título de cardiólogo los requisitos.</p>
+                                    </div>
+
+                                    <footer class="entry-footer">
+                                        <a href="#">leer más</a>
+                                    </footer>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="our-departments-cont">
+                                    <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <img src="images/stomach-2.png" alt="">
+
+                                        <h3>Gastroenterología</h3>
+                                    </header>
+
+                                    <div class="entry-content">
+                                        <p>La gastroenterología es la especialidad médica que se ocupa de las enfermedades del aparato digestivo.</p>
+                                    </div>
+
+                                    <footer class="entry-footer">
+                                        <a href="#">leer más</a>
+                                    </footer>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="our-departments-cont">
+                                    <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <img src="images/blood-sample-2.png" alt="">
+
+                                        <h3>Laboratorio Médico</h3>
+                                    </header>
+
+                                    <div class="entry-content">
+                                        <p>Consulta a tu Médico y recuerda que él es quien debe prescribir e interpretar los estudios.</p>
+                                    </div>
+
+                                    <footer class="entry-footer">
+                                        <a href="#">leer más</a>
+                                    </footer>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="our-departments-cont">
+                                    <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <img src="images/teeth.png" alt="">
+
+                                        <h3>Dentista</h3>
+                                    </header>
+
+                                    <div class="entry-content">
+                                        <p>La odontología es una de las ciencias de la salud que se encarga del diagnóstico, tratamiento.</p>
+                                    </div>
+
+                                    <footer class="entry-footer">
+                                        <a href="#">leer más</a>
+                                    </footer>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="our-departments-cont">
+                                    <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <img src="images/stretcher.png" alt="">
+
+                                        <h3>Cirugía</h3>
+                                    </header>
+
+                                    <div class="entry-content">
+                                        <p>La cirugía. Es una especialidad médica que utiliza técnicas manuales e instrumentales operativas.</p>
+                                    </div>
+
+                                    <footer class="entry-footer">
+                                        <a href="#">leer más</a>
+                                    </footer>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="our-departments-cont">
+                                    <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <img src="images/scanner.png" alt="">
+
+                                        <h3>Neurología</h3>
+                                    </header>
+
+                                    <div class="entry-content">
+                                        <p>La Neurología es la especialidad médica que estudia la estructura, función y ... La patología.</p>
+                                    </div>
+
+                                    <footer class="entry-footer">
+                                        <a href="#">leer más</a>
+                                    </footer>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4 mb-md-0">
+                                <div class="our-departments-cont">
+                                    <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <img src="images/bones.png" alt="">
+
+                                        <h3>Ortodoncia</h3>
+                                    </header>
+
+                                    <div class="entry-content">
+                                        <p>Ortodoncia es una especialidad de la odontología que se encarga de la corrección de los dientes.</p>
+                                    </div>
+
+                                    <footer class="entry-footer">
+                                        <a href="#">leer más</a>
+                                    </footer>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4 mb-lg-0">
+                                <div class="our-departments-cont">
+                                    <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <img src="images/blood-donation-2.png" alt="">
+
+                                        <h3>Pediatra</h3>
+                                    </header>
+
+                                    <div class="entry-content">
+                                        <p>Los pediatras tienen una capacitación especial en la salud y las enfermedades de los niños hasta la adolescencia.</p>
+                                    </div>
+
+                                    <footer class="entry-footer">
+                                        <a href="#">leer más</a>
+                                    </footer>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4 mb-0">
+                                <div class="our-departments-cont">
+                                    <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <img src="images/glasses.png" alt="">
+
+                                        <h3>Oftalmología</h3>
+                                    </header>
+
+                                    <div class="entry-content">
+                                        <p>La oftalmología es la especialidad médica que se encarga del tratamiento de las enfermedades de los ojos.</p>
+                                    </div>
+
+                                    <footer class="entry-footer">
+                                        <a href="#">leer más</a>
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <div class="subscribe-banner" id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 offset-lg-2">
+                    <h2>Subscribete a nuestro Newsletter</h2>
+
+                    <form>
+                        <input type="email" placeholder="Dirección de Correo Electrónico">
+                        <input class="button gradient-bg" type="submit" value="Suscribirse">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="foot-about">
+                            <h2><a href="#"><img src="images/logo.png" alt=""></a></h2>
+
+                            <p>Somos una clínica de alta especialidad lista para recibirte en cualquiera que sea tu necesidad o urgencia.</p>
+
+                            <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | clinicaisla.club</p>
+                        </div><!-- .foot-about -->
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+                        <div class="foot-contact">
+                            <h2>Contacto</h2>
+
+                            <ul class="p-0 m-0">
+                                <li><span>Contacto:</span>Paseo de la Reforma #1154, Lomas de Chapultepec</li>
+                                <li><span>Teléfono:</span>6778-8892</li>
+                                <li><span>Email:</span>contacto@clinicaisla.club</li>
+                            </ul>
+                        </div>
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+                        <div class="foot-links">
+                            <h2>Menú</h2>
+
+                            <ul class="p-0 m-0">
+                                 <li class="current-menu-item"><a href="index.html">Inicio</a></li>
+                                <li><a href="#cita">Haz una Cita</a></li>
+                                <li><a href="#servicios">Servicios</a></li>
+                                <li><a href="#contacto">Contacto</a></li>
+                            </ul>
+                        </div><!-- .foot-links -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .footer-widgets -->
+    </footer><!-- .site-footer -->
+
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='js/jquery.barfiller.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+</body>
+</html>
